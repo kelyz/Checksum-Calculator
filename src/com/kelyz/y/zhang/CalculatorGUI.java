@@ -8,10 +8,10 @@ public class CalculatorGUI {
 		
 		EventQueue.invokeLater(() -> {
 			JFrame frame = new Calculator();
-	     	frame.setTitle("Checksum Calculator");
-	     	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	     	frame.setVisible(true);
-	     	frame.setResizable(true);
+	     		frame.setTitle("Checksum Calculator");
+	     		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	     		frame.setVisible(true);
+	     		frame.setResizable(true);
 		});
 	}
 }
