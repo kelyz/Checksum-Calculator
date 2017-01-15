@@ -55,10 +55,10 @@ public class Converter {
 	public static void toLabel(String algorithm, String input, String conversion, JPanel panel) {
 		
 		JTextArea algoType = new JTextArea(algorithm + ": " + input, 1, 20);
-	    algoType.setWrapStyleWord(true);
-	    algoType.setLineWrap(true);
-	    algoType.setOpaque(false);
-	    algoType.setEditable(false);
+	   	algoType.setWrapStyleWord(true);
+	    	algoType.setLineWrap(true);
+	    	algoType.setOpaque(false);
+	    	algoType.setEditable(false);
 		JTextField output = new JTextField(conversion, 35);
 		panel.add(algoType);
 		panel.add(output);
